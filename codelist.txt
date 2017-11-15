@@ -135,32 +135,32 @@ resourceType -- High level categorization of the kind of resource, used as the t
 	Collection
 
 sampleType
-	http://vocabulary.odm2.org/specimentype/automated/
-	http://vocabulary.odm2.org/specimentype/core/
-	http://vocabulary.odm2.org/specimentype/coreHalfRound/
-	http://vocabulary.odm2.org/specimentype/corePiece/
-	http://vocabulary.odm2.org/specimentype/coreQuarterRound/
-	http://vocabulary.odm2.org/specimentype/coreSection/
-	http://vocabulary.odm2.org/specimentype/coreSectionHalf/
-	http://vocabulary.odm2.org/specimentype/coreSub-Piece/
-	http://vocabulary.odm2.org/specimentype/coreWholeRound/
-	http://vocabulary.odm2.org/specimentype/cuttings/
-	http://vocabulary.odm2.org/specimentype/dredge/
-	http://vocabulary.odm2.org/specimentype/foliageDigestion/
-	http://vocabulary.odm2.org/specimentype/foliageLeaching/
-	http://vocabulary.odm2.org/specimentype/forestFloorDigestion/
-	http://vocabulary.odm2.org/specimentype/grab/
-	http://vocabulary.odm2.org/specimentype/individualSample/
-	http://vocabulary.odm2.org/specimentype/litterFallDigestion/
-	http://vocabulary.odm2.org/specimentype/orientedCore/
-	http://vocabulary.odm2.org/specimentype/petriDishDryDeposition/
-	http://vocabulary.odm2.org/specimentype/precipitationBulk/
-	http://vocabulary.odm2.org/specimentype/rockPowder/
-	http://vocabulary.odm2.org/specimentype/standardReferenceSpecimen/
-	http://vocabulary.odm2.org/specimentype/terrestrialSection/
-	http://vocabulary.odm2.org/specimentype/thinSection/
-	http://vocabulary.odm2.org/specimentype/other/
-	http://vocabulary.odm2.org/specimentype/unknown/
+	http://vocabulary.odm2.org/specimentype/automated
+	http://vocabulary.odm2.org/specimentype/core
+	http://vocabulary.odm2.org/specimentype/coreHalfRound
+	http://vocabulary.odm2.org/specimentype/corePiece
+	http://vocabulary.odm2.org/specimentype/coreQuarterRound
+	http://vocabulary.odm2.org/specimentype/coreSection
+	http://vocabulary.odm2.org/specimentype/coreSectionHalf
+	http://vocabulary.odm2.org/specimentype/coreSub-Piece
+	http://vocabulary.odm2.org/specimentype/coreWholeRound
+	http://vocabulary.odm2.org/specimentype/cuttings
+	http://vocabulary.odm2.org/specimentype/dredge
+	http://vocabulary.odm2.org/specimentype/foliageDigestion
+	http://vocabulary.odm2.org/specimentype/foliageLeaching
+	http://vocabulary.odm2.org/specimentype/forestFloorDigestion
+	http://vocabulary.odm2.org/specimentype/grab
+	http://vocabulary.odm2.org/specimentype/individualSample
+	http://vocabulary.odm2.org/specimentype/litterFallDigestion
+	http://vocabulary.odm2.org/specimentype/orientedCore
+	http://vocabulary.odm2.org/specimentype/petriDishDryDeposition
+	http://vocabulary.odm2.org/specimentype/precipitationBulk
+	http://vocabulary.odm2.org/specimentype/rockPowder
+	http://vocabulary.odm2.org/specimentype/standardReferenceSpecimen
+	http://vocabulary.odm2.org/specimentype/terrestrialSection
+	http://vocabulary.odm2.org/specimentype/thinSection
+	http://vocabulary.odm2.org/specimentype/other
+	http://vocabulary.odm2.org/specimentype/unknown
 
 sridType
 	4326
