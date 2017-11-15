@@ -1,0 +1,166 @@
+accessType
+	Public
+	Private
+
+collectionType
+	Collection
+
+contributorType
+	ContactPerson
+	Distributor
+	Editor
+	Funder
+	HostingInstitution
+	Other
+	ProjectLeader
+	ProjectManager
+	ProjectMember
+	RelatedPerson
+	ResearchGroup
+	RightsHolder
+	Researcher
+	Sponsor
+	Supervisor
+	WorkPackageLeader
+
+featureType
+	http://vocabulary.odm2.org/samplingfeaturetype/borehole	
+	http://vocabulary.odm2.org/samplingfeaturetype/crossSection
+	http://vocabulary.odm2.org/samplingfeaturetype/CTD
+	http://vocabulary.odm2.org/samplingfeaturetype/depthInterval
+	http://vocabulary.odm2.org/samplingfeaturetype/excavation
+	http://vocabulary.odm2.org/samplingfeaturetype/fieldArea
+	http://vocabulary.odm2.org/samplingfeaturetype/flightline
+	http://vocabulary.odm2.org/samplingfeaturetype/interval
+	http://vocabulary.odm2.org/samplingfeaturetype/observationWell
+	http://vocabulary.odm2.org/samplingfeaturetype/profile
+	http://vocabulary.odm2.org/samplingfeaturetype/quadrat
+	http://vocabulary.odm2.org/samplingfeaturetype/scene
+	http://vocabulary.odm2.org/samplingfeaturetype/shipsTrack
+	http://vocabulary.odm2.org/samplingfeaturetype/site
+	http://vocabulary.odm2.org/samplingfeaturetype/soilPitSection
+	http://vocabulary.odm2.org/samplingfeaturetype/specimen
+	http://vocabulary.odm2.org/samplingfeaturetype/streamGage
+	http://vocabulary.odm2.org/samplingfeaturetype/trajectory
+	http://vocabulary.odm2.org/samplingfeaturetype/transect
+	http://vocabulary.odm2.org/samplingfeaturetype/traverse
+	http://vocabulary.odm2.org/samplingfeaturetype/waterQualityStation
+	http://vocabulary.odm2.org/samplingfeaturetype/weatherStation
+
+geometryType
+	LineString
+	MultiLineString
+	Point
+	MultiPoint
+	Polygon
+	MultiPolygon
+
+identifierType
+	ARK
+	DOI
+	Handle
+	IGSN
+	ISBN
+	ISNI
+	ISSN
+	LSID
+	ORCID
+	PURL
+	URL
+	URN
+	VIAF
+
+materialType
+	http://vocabulary.odm2.org/medium/air
+	http://vocabulary.odm2.org/medium/gas
+	http://vocabulary.odm2.org/medium/ice
+	http://vocabulary.odm2.org/medium/liquidAqueous
+	http://vocabulary.odm2.org/medium/liquidOrganic
+	http://vocabulary.odm2.org/medium/mineral
+	http://vocabulary.odm2.org/medium/organism
+	http://vocabulary.odm2.org/medium/particulate
+	http://vocabulary.odm2.org/medium/rock
+	http://vocabulary.odm2.org/medium/sediment
+	http://vocabulary.odm2.org/medium/snow
+	http://vocabulary.odm2.org/medium/soil
+	http://vocabulary.odm2.org/medium/tissue
+	http://vocabulary.odm2.org/medium/other
+	http://vocabulary.odm2.org/medium/unknown
+
+methodType
+	Blast
+	Corer
+	Corer:Box
+	Corer:Drill
+	Corer:FreeFall
+	Corer:Gravity
+	Corer:Gravity,Giant
+	Corer:Kastenlot
+	Corer:Multi
+	Corer:Piston
+	Corer:Piston,Giant
+	Corer:Rock
+	Corer:SideSaddle
+	Corer:TriggerWeight
+	Corer:Vibrating
+	Dredge
+	Dredge:ChainBag
+	Dredge:Scallop
+	Grab
+	Hand
+	Hand:Auger
+	Hand:Hammer
+	Hand:Knife
+	Net
+	Net:MOCNESS
+	Probe
+	Scoop
+	Trap
+	Trawl
+	Other
+	Unknown
+
+registrationType
+	PhysicalSample
+	SampleCollection
+	SamplingFeature
+
+relationType
+	hasDocument
+	hasEvent
+
+resourceType -- High level categorization of the kind of resource, used as the type for an attribute of the resource root element. Note that the resource element also has a resourceTypes child element that is a sequence of resourceType elements defined as a union of the enumerations for featureType, sampleType and collectionType. 
+	Feature
+	Sample
+	Collection
+
+sampleType
+	http://vocabulary.odm2.org/specimentype/automated/
+	http://vocabulary.odm2.org/specimentype/core/
+	http://vocabulary.odm2.org/specimentype/coreHalfRound/
+	http://vocabulary.odm2.org/specimentype/corePiece/
+	http://vocabulary.odm2.org/specimentype/coreQuarterRound/
+	http://vocabulary.odm2.org/specimentype/coreSection/
+	http://vocabulary.odm2.org/specimentype/coreSectionHalf/
+	http://vocabulary.odm2.org/specimentype/coreSub-Piece/
+	http://vocabulary.odm2.org/specimentype/coreWholeRound/
+	http://vocabulary.odm2.org/specimentype/cuttings/
+	http://vocabulary.odm2.org/specimentype/dredge/
+	http://vocabulary.odm2.org/specimentype/foliageDigestion/
+	http://vocabulary.odm2.org/specimentype/foliageLeaching/
+	http://vocabulary.odm2.org/specimentype/forestFloorDigestion/
+	http://vocabulary.odm2.org/specimentype/grab/
+	http://vocabulary.odm2.org/specimentype/individualSample/
+	http://vocabulary.odm2.org/specimentype/litterFallDigestion/
+	http://vocabulary.odm2.org/specimentype/orientedCore/
+	http://vocabulary.odm2.org/specimentype/petriDishDryDeposition/
+	http://vocabulary.odm2.org/specimentype/precipitationBulk/
+	http://vocabulary.odm2.org/specimentype/rockPowder/
+	http://vocabulary.odm2.org/specimentype/standardReferenceSpecimen/
+	http://vocabulary.odm2.org/specimentype/terrestrialSection/
+	http://vocabulary.odm2.org/specimentype/thinSection/
+	http://vocabulary.odm2.org/specimentype/other/
+	http://vocabulary.odm2.org/specimentype/unknown/
+
+sridType
+	4326
