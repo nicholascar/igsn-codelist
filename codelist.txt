@@ -69,7 +69,7 @@ identifierType
 	LSID
 	ORCID
 	PURL
-	URL
+	URI
 	URN
 	VIAF
 	Unknown
