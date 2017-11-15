@@ -1,30 +1,30 @@
-accessType
-	Public
-	Private
+http://pid.geoscience.gov.au/def/voc/igsncode/accessType
+	http://pid.geoscience.gov.au/def/voc/igsncode/Public
+	http://pid.geoscience.gov.au/def/voc/igsncode/Private
 
-collectionType
-	Collection
+http://pid.geoscience.gov.au/def/voc/igsncode/collectionType
+	http://pid.geoscience.gov.au/def/voc/igsncode/Collection
 
-contributorType
-	ContactPerson
-	Distributor
-	Editor
-	Funder
-	HostingInstitution
-	Other
-	ProjectLeader
-	ProjectManager
-	ProjectMember
-	RelatedPerson
-	ResearchGroup
-	RightsHolder
-	Researcher
-	Sponsor
-	Supervisor
-	WorkPackageLeader
-	Unknown
+http://pid.geoscience.gov.au/def/voc/igsncode/contributorType
+	http://pid.geoscience.gov.au/def/voc/igsncode/ContactPerson
+	http://pid.geoscience.gov.au/def/voc/igsncode/Distributor
+	http://pid.geoscience.gov.au/def/voc/igsncode/Editor
+	http://pid.geoscience.gov.au/def/voc/igsncode/Funder
+	http://pid.geoscience.gov.au/def/voc/igsncode/HostingInstitution
+	http://pid.geoscience.gov.au/def/voc/igsncode/Other
+	http://pid.geoscience.gov.au/def/voc/igsncode/ProjectLeader
+	http://pid.geoscience.gov.au/def/voc/igsncode/ProjectManager
+	http://pid.geoscience.gov.au/def/voc/igsncode/ProjectMember
+	http://pid.geoscience.gov.au/def/voc/igsncode/RelatedPerson
+	http://pid.geoscience.gov.au/def/voc/igsncode/ResearchGroup
+	http://pid.geoscience.gov.au/def/voc/igsncode/RightsHolder
+	http://pid.geoscience.gov.au/def/voc/igsncode/Researcher
+	http://pid.geoscience.gov.au/def/voc/igsncode/Sponsor
+	http://pid.geoscience.gov.au/def/voc/igsncode/Supervisor
+	http://pid.geoscience.gov.au/def/voc/igsncode/WorkPackageLeader
+	http://pid.geoscience.gov.au/def/voc/igsncode/Unknown
 
-featureType
+http://pid.geoscience.gov.au/def/voc/igsncode/featureType
 	http://vocabulary.odm2.org/samplingfeaturetype/borehole	
 	http://vocabulary.odm2.org/samplingfeaturetype/crossSection
 	http://vocabulary.odm2.org/samplingfeaturetype/CTD
@@ -49,32 +49,32 @@ featureType
 	http://vocabulary.odm2.org/samplingfeaturetype/weatherStation
 	Unknown
 
-geometryType
-	LineString
-	MultiLineString
-	Point
-	MultiPoint
-	Polygon
-	MultiPolygon
+http://pid.geoscience.gov.au/def/voc/igsncode/geometryType
+	http://pid.geoscience.gov.au/def/voc/igsncode/LineString
+	http://pid.geoscience.gov.au/def/voc/igsncode/MultiLineString
+	http://pid.geoscience.gov.au/def/voc/igsncode/Point
+	http://pid.geoscience.gov.au/def/voc/igsncode/MultiPoint
+	http://pid.geoscience.gov.au/def/voc/igsncode/Polygon
+	http://pid.geoscience.gov.au/def/voc/igsncode/MultiPolygon
+	http://pid.geoscience.gov.au/def/voc/igsncode/Unknown
+
+http://pid.geoscience.gov.au/def/voc/igsncode/identifierType
+	http://pid.geoscience.gov.au/def/voc/igsncode/ARK
+	http://pid.geoscience.gov.au/def/voc/igsncode/DOI
+	http://pid.geoscience.gov.au/def/voc/igsncode/Handle
+	http://pid.geoscience.gov.au/def/voc/igsncode/IGSN
+	http://pid.geoscience.gov.au/def/voc/igsncode/ISBN
+	http://pid.geoscience.gov.au/def/voc/igsncode/ISNI
+	http://pid.geoscience.gov.au/def/voc/igsncode/ISSN
+	http://pid.geoscience.gov.au/def/voc/igsncode/LSID
+	http://pid.geoscience.gov.au/def/voc/igsncode/ORCID
+	http://pid.geoscience.gov.au/def/voc/igsncode/PURL
+	http://pid.geoscience.gov.au/def/voc/igsncode/URI
+	http://pid.geoscience.gov.au/def/voc/igsncode/URN
+	http://pid.geoscience.gov.au/def/voc/igsncode/VIAF
 	Unknown
 
-identifierType
-	ARK
-	DOI
-	Handle
-	IGSN
-	ISBN
-	ISNI
-	ISSN
-	LSID
-	ORCID
-	PURL
-	URI
-	URN
-	VIAF
-	Unknown
-
-materialType
+http://pid.geoscience.gov.au/def/voc/igsncode/materialType
 	http://vocabulary.odm2.org/medium/air
 	http://vocabulary.odm2.org/medium/gas
 	http://vocabulary.odm2.org/medium/ice
@@ -91,54 +91,54 @@ materialType
 	http://vocabulary.odm2.org/medium/other
 	http://vocabulary.odm2.org/medium/unknown
 
-methodType
-	Blast
-	Corer
-		Box
-		Drill
-		FreeFall
-		Gravity
-		Gravity,Giant
-		Kastenlot
-		Multi
-		Piston
-		Piston,Giant
-		Rock
-		SideSaddle
-		TriggerWeight
-		Vibrating
-	Dredge
-		ChainBag
-		Scallop
-	Grab
-	Hand
-		Auger
-		Hammer
-		Knife
-	Net
-		MOCNESS
-	Probe
-	Scoop
-	Trap
-	Trawl
-	Other
-	Unknown
+http://pid.geoscience.gov.au/def/voc/igsncode/methodType
+	http://pid.geoscience.gov.au/def/voc/igsncode/Blast
+	http://pid.geoscience.gov.au/def/voc/igsncode/Corer
+		http://pid.geoscience.gov.au/def/voc/igsncode/Box
+		http://pid.geoscience.gov.au/def/voc/igsncode/Drill
+		http://pid.geoscience.gov.au/def/voc/igsncode/FreeFall
+		http://pid.geoscience.gov.au/def/voc/igsncode/Gravity
+		http://pid.geoscience.gov.au/def/voc/igsncode/GravityGiant
+		http://pid.geoscience.gov.au/def/voc/igsncode/Kastenlot
+		http://pid.geoscience.gov.au/def/voc/igsncode/Multi
+		http://pid.geoscience.gov.au/def/voc/igsncode/Piston
+		http://pid.geoscience.gov.au/def/voc/igsncode/PistonGiant
+		http://pid.geoscience.gov.au/def/voc/igsncode/Rock
+		http://pid.geoscience.gov.au/def/voc/igsncode/SideSaddle
+		http://pid.geoscience.gov.au/def/voc/igsncode/TriggerWeight
+		http://pid.geoscience.gov.au/def/voc/igsncode/Vibrating
+	http://pid.geoscience.gov.au/def/voc/igsncode/Dredge
+		http://pid.geoscience.gov.au/def/voc/igsncode/ChainBag
+		http://pid.geoscience.gov.au/def/voc/igsncode/Scallop
+	http://pid.geoscience.gov.au/def/voc/igsncode/Grab
+	http://pid.geoscience.gov.au/def/voc/igsncode/Hand
+		http://pid.geoscience.gov.au/def/voc/igsncode/Auger
+		http://pid.geoscience.gov.au/def/voc/igsncode/Hammer
+		http://pid.geoscience.gov.au/def/voc/igsncode/Knife
+	http://pid.geoscience.gov.au/def/voc/igsncode/Net
+		http://pid.geoscience.gov.au/def/voc/igsncode/MOCNESS
+	http://pid.geoscience.gov.au/def/voc/igsncode/Probe
+	http://pid.geoscience.gov.au/def/voc/igsncode/Scoop
+	http://pid.geoscience.gov.au/def/voc/igsncode/Trap
+	http://pid.geoscience.gov.au/def/voc/igsncode/Trawl
+	http://pid.geoscience.gov.au/def/voc/igsncode/Other
+	http://pid.geoscience.gov.au/def/voc/igsncode/Unknown
 
-registrationType
-	PhysicalSample
-	SampleCollection
-	SamplingFeature
+http://pid.geoscience.gov.au/def/voc/igsncode/registrationType
+	http://pid.geoscience.gov.au/def/voc/igsncode/PhysicalSample
+	http://pid.geoscience.gov.au/def/voc/igsncode/SampleCollection
+	http://pid.geoscience.gov.au/def/voc/igsncode/SamplingFeature
 
-relationType
-	hasDocument
-	hasEvent
+http://pid.geoscience.gov.au/def/voc/igsncode/relationType
+	http://pid.geoscience.gov.au/def/voc/igsncode/hasDocument
+	http://pid.geoscience.gov.au/def/voc/igsncode/hasEvent
 
-resourceType -- High level categorization of the kind of resource, used as the type for an attribute of the resource root element. Note that the resource element also has a resourceTypes child element that is a sequence of resourceType elements defined as a union of the enumerations for featureType, sampleType and collectionType. 
-	Feature
-	Sample
-	Collection
+http://pid.geoscience.gov.au/def/voc/igsncode/resourceType -- High level categorization of the kind of resource, used as the type for an attribute of the resource root element. Note that the resource element also has a resourceTypes child element that is a sequence of resourceType elements defined as a union of the enumerations for featureType, sampleType and collectionType. 
+	http://pid.geoscience.gov.au/def/voc/igsncode/Feature
+	http://pid.geoscience.gov.au/def/voc/igsncode/Sample
+	http://pid.geoscience.gov.au/def/voc/igsncode/Collection
 
-sampleType
+http://pid.geoscience.gov.au/def/voc/igsncode/sampleType
 	http://vocabulary.odm2.org/specimentype/automated
 	http://vocabulary.odm2.org/specimentype/core
 	http://vocabulary.odm2.org/specimentype/coreHalfRound
@@ -166,7 +166,7 @@ sampleType
 	http://vocabulary.odm2.org/specimentype/other
 	http://vocabulary.odm2.org/specimentype/unknown
 
-sridType
+http://pid.geoscience.gov.au/def/voc/igsncode/sridType
 	https://epsg.io/4326
 	https://epsg.io/4938
-	Unknown
+	http://pid.geoscience.gov.au/def/voc/igsncode/Unknown
