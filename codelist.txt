@@ -22,6 +22,7 @@ contributorType
 	Sponsor
 	Supervisor
 	WorkPackageLeader
+	Unknown
 
 featureType
 	http://vocabulary.odm2.org/samplingfeaturetype/borehole	
@@ -46,6 +47,7 @@ featureType
 	http://vocabulary.odm2.org/samplingfeaturetype/traverse
 	http://vocabulary.odm2.org/samplingfeaturetype/waterQualityStation
 	http://vocabulary.odm2.org/samplingfeaturetype/weatherStation
+	Unknown
 
 geometryType
 	LineString
@@ -54,6 +56,7 @@ geometryType
 	MultiPoint
 	Polygon
 	MultiPolygon
+	Unknown
 
 identifierType
 	ARK
@@ -69,6 +72,7 @@ identifierType
 	URL
 	URN
 	VIAF
+	Unknown
 
 materialType
 	http://vocabulary.odm2.org/medium/air
@@ -164,3 +168,4 @@ sampleType
 
 sridType
 	4326
+	Unknown
