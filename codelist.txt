@@ -168,4 +168,5 @@ sampleType
 
 sridType
 	4326
+	4938
 	Unknown
