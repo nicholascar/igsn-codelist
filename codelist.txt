@@ -167,6 +167,6 @@ sampleType
 	http://vocabulary.odm2.org/specimentype/unknown
 
 sridType
-	4326
-	4938
+	https://epsg.io/4326
+	https://epsg.io/4938
 	Unknown
