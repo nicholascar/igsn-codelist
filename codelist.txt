@@ -90,29 +90,29 @@ materialType
 methodType
 	Blast
 	Corer
-	Corer:Box
-	Corer:Drill
-	Corer:FreeFall
-	Corer:Gravity
-	Corer:Gravity,Giant
-	Corer:Kastenlot
-	Corer:Multi
-	Corer:Piston
-	Corer:Piston,Giant
-	Corer:Rock
-	Corer:SideSaddle
-	Corer:TriggerWeight
-	Corer:Vibrating
+		Box
+		Drill
+		FreeFall
+		Gravity
+		Gravity,Giant
+		Kastenlot
+		Multi
+		Piston
+		Piston,Giant
+		Rock
+		SideSaddle
+		TriggerWeight
+		Vibrating
 	Dredge
-	Dredge:ChainBag
-	Dredge:Scallop
+		ChainBag
+		Scallop
 	Grab
 	Hand
-	Hand:Auger
-	Hand:Hammer
-	Hand:Knife
+		Auger
+		Hammer
+		Knife
 	Net
-	Net:MOCNESS
+		MOCNESS
 	Probe
 	Scoop
 	Trap
