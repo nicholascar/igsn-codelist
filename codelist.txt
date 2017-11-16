@@ -141,13 +141,13 @@ http://pid.geoscience.gov.au/def/voc/ga/igsncode/resourceType -- High level cate
 http://pid.geoscience.gov.au/def/voc/ga/igsncode/sampleType
 	http://vocabulary.odm2.org/specimentype/automated
 	http://vocabulary.odm2.org/specimentype/core
-	http://vocabulary.odm2.org/specimentype/coreHalfRound
-	http://vocabulary.odm2.org/specimentype/corePiece
-	http://vocabulary.odm2.org/specimentype/coreQuarterRound
-	http://vocabulary.odm2.org/specimentype/coreSection
-	http://vocabulary.odm2.org/specimentype/coreSectionHalf
-	http://vocabulary.odm2.org/specimentype/coreSub-Piece
-	http://vocabulary.odm2.org/specimentype/coreWholeRound
+		http://vocabulary.odm2.org/specimentype/coreHalfRound
+		http://vocabulary.odm2.org/specimentype/corePiece
+		http://vocabulary.odm2.org/specimentype/coreQuarterRound
+		http://vocabulary.odm2.org/specimentype/coreSection
+		http://vocabulary.odm2.org/specimentype/coreSectionHalf
+		http://vocabulary.odm2.org/specimentype/coreSub-Piece
+		http://vocabulary.odm2.org/specimentype/coreWholeRound
 	http://vocabulary.odm2.org/specimentype/cuttings
 	http://vocabulary.odm2.org/specimentype/dredge
 	http://vocabulary.odm2.org/specimentype/foliageDigestion
