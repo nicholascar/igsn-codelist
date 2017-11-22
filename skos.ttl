@@ -199,688 +199,1093 @@ igsncode:sridType a skos:Collection ;
 igsncode:ARK a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Archival Resource Key"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "An Archival Resource Key (ARK) is a Uniform Resource Locator (URL) that is a multi-purpose persistent identifier for information objects of any type."@en ;
+    dct:source "https://confluence.ucop.edu/display/Curation/ARK" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Auger a skos:Concept ;
     skos:broader igsncode:Hand ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Auger"^^xsd:string .
+    skos:prefLabel "Auger"^^xsd:string ;
+    skos:definition "An auger is a drilling device, or drill bit, that usually includes a rotating helical screw blade called a "flighting" to act as a screw conveyor to remove the drilled out material."@en ;
+    dct:source "https://en.wikipedia.org/wiki/Auger_(drill)" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Blast a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Blast"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "An explosion is a rapid increase in volume and release of energy in an extreme manner, usually with the generation of high temperatures and the release of gases."@en ;
+    dct:source "https://en.wikipedia.org/wiki/Explosion" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Box a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Box"^^xsd:string .
+    skos:prefLabel "Box"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ChainBag a skos:Concept ;
     skos:broader igsncode:Dredge ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Chain bag"^^xsd:string .
+    skos:prefLabel "Chain bag"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ContactPerson a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Contact person"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "the individual or organization who is responsible for the initial triage of and answering questions related to the resource"@en ;
+    dct:source "ISO19115-1 Geographic metadata standard codelists" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:DOI a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Digital Object Identifier"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A persistent identifier or handle used to uniquely identify objects, standardized by the International Organization for Standardization (ISO)"@en ;
+    dct:source "http://www.doi.org/" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Distributor a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Distributor"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "The person or organization that is responsible for providing required access to the data"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Drill a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Drill"^^xsd:string .
+    skos:prefLabel "Drill"^^xsd:string ;
+    skos:definition "A drill is a tool fitted with a cutting tool attachment or driving tool attachment, usually a drill bit or driver bit, used for boring holes in various materials"@en ;
+    dct:source "https://en.wikipedia.org/wiki/Drill" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Editor a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Editor"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "An individual who has made a corrective or editorial change to the resource as part of a systematic revision process"@en ;
+    dct:source "ISO19115-1 Geographic metadata standard codelists" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Feature a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Feature"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:FreeFall a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Free fall"^^xsd:string .
+    skos:prefLabel "Free fall"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Funder a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Funder"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "The individual or organization which has provided all or part of the finances associated with the resource"@en ;
+    dct:source "ISO19115-1 Geographic metadata standard codelists" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Grab a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Grap"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Gravity a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Gravity"^^xsd:string .
+    skos:prefLabel "Gravity"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:GravityGiant a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Gravity giant"^^xsd:string .
+    skos:prefLabel "Gravity giant"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Hammer a skos:Concept ;
     skos:broader igsncode:Hand ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Hammer"^^xsd:string .
+    skos:prefLabel "Hammer"^^xsd:string ;
+    skos:definition "A hammer is a tool or device that delivers a blow to an object. Most hammers are hand tools used to drive nails, fit parts, forge metal, and break apart objects"@en ;
+    dct:source "https://en.wikipedia.org/wiki/Hammer" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Handle a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Handle"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "the Handle System is a distributed computer system for assigning persistent identifiers, or handles, to information resources, and for resolving \"those handles into the information necessary to locate, access, and otherwise make use of the resources\""@en ;
+    dct:source "https://en.wikipedia.org/wiki/Handle_System" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:HostingInstitution a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Hosting institution"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "The institution that hosts the physical sample"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:IGSN a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "International GeoSample Number"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "The International Geo Sample Number or IGSN is a sample identification code of typically nine characters. As an active persistent identifier it can be resolved through the Handle System"@en ;
+    dct:source "https://en.wikipedia.org/wiki/International_Geo_Sample_Number" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ISBN a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "International Standard Book Number"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "The International Standard Book Number is a unique numeric commercial book identifier"@en ;
+    dct:source "https://en.wikipedia.org/wiki/International_Standard_Book_Number" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ISNI a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "International Standard Name Identifier"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "The International Standard Name Identifier is an identifier for uniquely identifying the public identities of contributors to media content such as books, television programmes, and newspaper articles. Such an identifier consists of 16 digits"@en ;
+    dct:source "https://en.wikipedia.org/wiki/International_Standard_Name_Identifier" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ISSN a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "International Standard Serial Number"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "An International Standard Serial Number is an eight-digit serial number used to uniquely identify a serial publication. The ISSN is especially helpful in distinguishing between serials with the same title. ISSN are used in ordering, cataloging, interlibrary loans, and other practices in connection with serial literature"@en ;
+    dct:source "https://en.wikipedia.org/wiki/International_Standard_Serial_Number" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Kastenlot a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Kastenlot"^^xsd:string .
+    skos:prefLabel "Kastenlot"^^xsd:string ;
+    skos:definition "Also known as a Kiel box corer, a kastenlot is a square-cross sectioned core sampling device used to collect marine sediments."@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Knife a skos:Concept ;
     skos:broader igsncode:Hand ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Knife"^^xsd:string .
+    skos:prefLabel "Knife"^^xsd:string ;
+    skos:definition "A knife is a tool with a cutting edge or blade, hand-held or otherwise, with most having a handle"@en ;
+    dct:source "https://en.wikipedia.org/wiki/Knife" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:LSID a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Life Science Identifiers"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "Life Science Identifiers are a way to name and locate pieces of information on the web. Essentially, an LSID is a unique identifier for some data, and the LSID protocol specifies a standard way to locate the data. They are a little like DOIs used by many publishers"@en ;
+    dct:source "https://en.wikipedia.org/wiki/LSID" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:LineString a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Line sting"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:prefLabel "Line string"^^xsd:string ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A series of Point objects with assumed linear interpolation in between"@en ;
+    dct:source "Nicholas Car / GML" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Multi a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Multi"^^xsd:string .
+    skos:prefLabel "Multi"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:MultiLineString a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Multi line string"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "Multiple LineStrings"@en ;
+    dct:source "Nicholas Car / GML" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:MultiPoint a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Multi point"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "Multiple Points"@en ;
+    dct:source "Nicholas Car / GML" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:MultiPolygon a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Multi polygon"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "Multiple Polygons"@en ;
+    dct:source "Nicholas Car / GML" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ORCID a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Open Researcher and Contributor ID"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "ORCID is a nonproprietary alphanumeric code to uniquely identify scientific and other academic authors and contributors"@en ;
+    dct:source "https://en.wikipedia.org/wiki/ORCID" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:PURL a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Persistent uniform resource locator"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A persistent uniform resource locator (PURL) is a uniform resource locator (URL) (i.e., location-based uniform resource identifier or URI) that is used to redirect to the location of the requested web resource"@en ;
+    dct:source "https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:PhysicalSample a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Physical sample"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Piston a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Piston"^^xsd:string .
+    skos:prefLabel "Piston"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:PistonGiant a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Piston giant"^^xsd:string .
+    skos:prefLabel "Piston giant"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Point a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Point"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A 0-dimensional geometric primitive, representing a position, as defined by the OGC's GML standard"@en ;
+    dct:source "Geographic Markup Language" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Polygon a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Polygon"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A planar surface defined by 1 exterior boundary and 0 or more interior boundaries"@en ;
+    dct:source "Geographic Markup Language" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Private a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Private"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "Not to be accessed outside the hosting institution"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Probe a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Probe"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ProjectLeader a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Project leader"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A person who lead a project"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ProjectManager a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Project manager"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A person who managed a project"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ProjectMember a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Project member"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A member of a project team"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Public a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Public"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "Accessible to the general public"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:RelatedPerson a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Related person"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A person related to an object of interest (a sample), possibly in an unknonwn way"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:ResearchGroup a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Research group"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A group conducting research"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Researcher a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Researcher"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A person undertaking research"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:RightsHolder a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Rights holder"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A person or organisation holding rights to an object of interest (a sample)"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Rock a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Rock"^^xsd:string .
+    skos:prefLabel "Rock"^^xsd:string ;
+    skos:definition "Rock or stone is a natural substance, a solid aggregate of one or more minerals or mineraloids. For example, granite, a common rock, is a combination of the minerals quartz, feldspar and biotite"@en ;
+    dct:source "https://en.wikipedia.org/wiki/Rock_(geology)" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Sample a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Sample"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "Sample - Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made"@en ;
+    dct:source "https://www.w3.org/TR/vocab-ssn/#SOSASample" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:SampleCollection a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Sample collection"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition "A set of things"@en ;
+    dct:source "Nicholas Car" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:SamplingFeature a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Sampleing feature"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Scallop a skos:Concept ;
     skos:broader igsncode:Dredge ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Scallop"^^xsd:string .
+    skos:prefLabel "Scallop"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Scoop a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Scoop"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:SideSaddle a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Side saddle"^^xsd:string .
+    skos:prefLabel "Side saddle"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Sponsor a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Sponsor"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Supervisor a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Supervisor"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Trap a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Trap"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Trawl a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Trawl"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:TriggerWeight a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Trigger weight"^^xsd:string .
+    skos:prefLabel "Trigger weight"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:URI a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Uniform Resource Identifier"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:URN a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Uniform Resource Name"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:VIAF a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Virtual International Authority File"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Vibrating a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:prefLabel "Vibrating"^^xsd:string .
+    skos:prefLabel "Vibrating"^^xsd:string ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:WorkPackageLeader a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Work package leader"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:hasDocument a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "has document"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:hasEvent a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "has event"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/air> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Air"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/gas> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Gas"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/ice> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Ice"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/liquidAqueous> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Liquid aqueous"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/liquidOrganic> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Liquid organic"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/mineral> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Mineral"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/organism> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Organism"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/other> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Other"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/particulate> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Particulate"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/rock> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Rock"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/sediment> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Sediment"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/snow> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Snow"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/soil> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Soil"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/tissue> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Tissue"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/unknown> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Unknown"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/CTD> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "CTD"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/borehole> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Borehole"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/crossSection> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Cross section"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/depthInterval> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Depth interval"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/excavation> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Excavation"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/fieldArea> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Field area"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/flightline> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Flight line"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/interval> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Interval"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/observationWell> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Observation well"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/profile> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Profile"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/quadrat> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Quadrat"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/scene> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Scene"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/shipsTrack> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Ships track"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/site> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Site"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/soilPitSection> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Soil pit section"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/specimen> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Specimen"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/streamGage> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Stream gage"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/trajectory> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Trajectory"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/transect> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Transect"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/traverse> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Traverse"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/waterQualityStation> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Water quality station"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/weatherStation> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Weather station"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/automated> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Automated"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/cuttings> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Cuttings"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/dredge> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Dredge"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/foliageDigestion> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Foliage digestion"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/foliageLeaching> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Foliage leaching"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/forestFloorDigestion> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Forest floor digestion"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/grab> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Grab"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/individualSample> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Individual sample"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/litterFallDigestion> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Litter fall digestion"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/orientedCore> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Oriented core"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/other> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Other"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/petriDishDryDeposition> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Petri dish deposition"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/precipitationBulk> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Precipitation bulk"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/rockPowder> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Rock powder"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/standardReferenceSpecimen> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Standard referece specimen"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/terrestrialSection> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Terrestrial section"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/thinSection> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Thin section"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <https://epsg.io/4326> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "World Geodetic System 1984"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <https://epsg.io/4938> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Geocentric Datum of Australia 1994"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "Geoscience Australia" .
 
 igsncode:Collection a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Collection"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:MOCNESS a skos:Concept ;
     skos:broader igsncode:Net ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Multiple Opening/Closing Net and Environmental Sensing System"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Net a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:narrower igsncode:MOCNESS ;
     skos:prefLabel "Net"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Other"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreHalfRound> a skos:Concept ;
     skos:broader <http://vocabulary.odm2.org/specimentype/core> ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core half round"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/corePiece> a skos:Concept ;
     skos:broader <http://vocabulary.odm2.org/specimentype/core> ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core piece"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreQuarterRound> a skos:Concept ;
     skos:broader <http://vocabulary.odm2.org/specimentype/core> ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core quarter round"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreSection> a skos:Concept ;
     skos:broader <http://vocabulary.odm2.org/specimentype/core> ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core section"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreSectionHalf> a skos:Concept ;
     skos:broader <http://vocabulary.odm2.org/specimentype/core> ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core section half"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreSub-Piece> a skos:Concept ;
     skos:broader <http://vocabulary.odm2.org/specimentype/core> ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core sub-piece"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreWholeRound> a skos:Concept ;
     skos:broader <http://vocabulary.odm2.org/specimentype/core> ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core whole round"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Dredge a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:narrower igsncode:ChainBag,
         igsncode:Scallop ;
     skos:prefLabel "Dredge"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Hand a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
@@ -888,12 +1293,18 @@ igsncode:Hand a skos:Concept ;
         igsncode:Hammer,
         igsncode:Knife ;
     skos:prefLabel "Hand"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Unknown a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Unknown"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/core> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
@@ -905,7 +1316,10 @@ igsncode:Unknown a skos:Concept ;
         <http://vocabulary.odm2.org/specimentype/coreSub-Piece>,
         <http://vocabulary.odm2.org/specimentype/coreWholeRound> ;
     skos:prefLabel "Core"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 igsncode:Corer a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
@@ -923,7 +1337,10 @@ igsncode:Corer a skos:Concept ;
         igsncode:TriggerWeight,
         igsncode:Vibrating ;
     skos:prefLabel "Corer"^^xsd:string ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
+    skos:definition ""@en ;
+    dct:source "" ;
+    dct:contributor "IGSN Technical Committee" .
 
 <http://pid.geoscience.gov.au/def/voc/ga/igsncode> a rdfs:Resource,
         skos:ConceptScheme ;
