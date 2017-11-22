@@ -280,8 +280,8 @@ igsncode:Feature a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Feature"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A geographical feature of the earth that is eitehr man-made or naturally-created. Natural geographical features consist of landforms and ecosystems. For example, terrain types, physical factors of the environment are natural geographical features. Conversely, human settlements or other engineered forms are considered types of artificial geographical features."@en ;
+    dct:source "https://en.wikipedia.org/wiki/Geographical_feature" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:FreeFall a skos:Concept ;
@@ -464,8 +464,8 @@ igsncode:PhysicalSample a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Physical sample"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A physical sample of a feature of interest, as opposed to a digital one (such as a satellite image or other photo). Physical samples are sometimes known as 'specimens'."@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Piston a skos:Concept ;
@@ -640,8 +640,8 @@ igsncode:Sponsor a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Sponsor"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The individual or organization who is providing sponsorship for the resource"@en ;
+    dct:source "ISO19115-1 Geographic metadata standard codelists" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Supervisor a skos:Concept ;
@@ -680,24 +680,24 @@ igsncode:URI a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Uniform Resource Identifier"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A compact sequence of characters that identifies an abstract or physical resource, formulated according to RFC 3986"@en ;
+    dct:source "https://tools.ietf.org/rfc/rfc3986" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:URN a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Uniform Resource Name"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Persistent, location-independent, resource identifiers, formulated according to RFC 2141"@en ;
+    dct:source "http://www.ietf.org/rfc/rfc2141" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:VIAF a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Virtual International Authority File"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The VIAF® (Virtual International Authority File) combines multiple name authority files into a single OCLC-hosted name authority service"@en ;
+    dct:source "https://viaf.org/" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Vibrating a skos:Concept ;
@@ -736,448 +736,448 @@ igsncode:hasEvent a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Air"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimen collection of ambient air or sensor emplaced to measure properties of ambient air"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/air" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/gas> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Gas"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Gas phase specimen or sensor emplaced to measure properties of a gas"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/gas" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/ice> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Ice"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample collected as frozen water or sensor emplaced to measure properties of ice"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/ice" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/liquidAqueous> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Liquid aqueous"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimen collected as liquid water or sensor emplaced to measure properties of water in sampled environment"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/liquidAqueous" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/liquidOrganic> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Liquid organic"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimen collected as an organic liquid"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/liquidOrganic" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/mineral> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Mineral"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimen collected as a mineral"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/mineral" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/organism> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Organism"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Data collected about a species at organism level"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/organism" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/other> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Other"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Other"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/other" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/particulate> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Particulate"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimen collected from particulates suspended in a paticulate-fluid mixture. Examples include particulates in water or air"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/particulate" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/rock> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Rock"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimen collected from a naturally occuring solid aggregate of one or more minerals"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/rock" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/sediment> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Sediment"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimen collected from material broken down by processes of weathering and erosion and subsequently transported by the action of wind, water, or ice, and/or by the force of gravity acting on the particles. Sensors may also be emplaced to measure sediment properties"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/sediment" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/snow> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Snow"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Observation in, of or sample taken from snow"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/snow" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/soil> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Soil"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimen collected from soil or sensor emplaced to measure properties of soil. Soil includes the mixture of minerals, organic matter, gasses, liquids, and organisms that make up the upper layer of earth in which plants grow"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/soil" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/tissue> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Tissue"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample of a living organism's tissue or sensor emplaced to measure property of tissue"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/tissue" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/unknown> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Unknown"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The sampled medium is unknown"@en ;
+    dct:source "http://vocabulary.odm2.org/medium/unknown" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/CTD> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "CTD"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A CTD (Conductivity, Temperature, and Depth) cast is a water column depth profile collected over a specific and relatively short date-time range, that can be considered as a parent specimen"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/CTD" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/borehole> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Borehole"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A narrow shaft bored into the ground, either vertically or horizontally. A borehole includes the hole cavity and walls surrounding that cavity"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/borehole" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/crossSection> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Cross section"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The intersection of a body in three-dimensional space with a plane. Represented as a polygon"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/crossSection" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/depthInterval> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Depth interval"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A discrete segment along a longer vertical path, such as a borehole, soil profile or other depth profile, in which an observation or specimen is collected over the distance between the upper and lower depth limits of the interval. A Depth Interval is a sub-type of Interval"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/depthInterval" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/excavation> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Excavation"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "An artificially constructed cavity in the earth that is deeper than the soil, larger than a well bore, and substantially open to the atmosphere. The diameter of an excavation is typically similar or larger than the depth. Excavations include building-foundation diggings, roadway cuts, and surface mines"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/excavation" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/fieldArea> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Field area"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A location at which field experiments or observations of ambient conditions are conducted. A field area may contain many sites and has a geographical footprint that can be represented by a polygon"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/fieldArea" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/flightline> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Flight line"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A path along which an aircraft travels while measuring a phenomena of study"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/flightline" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/interval> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Interval"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A discrete segment along a longer path in which an observation or specimen is collected over the distance between the upper and lower bounds of the interval. A Depth Interval is a sub-type of Interval"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/interval" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/observationWell> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Observation well"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A hole or shaft constructed in the earth intended to be used to locate, sample, or develop groundwater, oil, gas, or some other subsurface material. The diameter of a well is typically much smaller than the depth. Wells are also used to artificially recharge groundwater or to pressurize oil and gas production zones. Specific kinds of wells should be specified in the SamplingFeature description. For example, underground waste-disposal wells should be classified as waste injection wells"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/observationWell" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/profile> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Profile"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A one-dimensional grid at fixed (x, y, t) coordinates within a four-dimensional (x, y, z, t) coordinate reference system. The grid axis is aligned with the coordinate reference system z-axis. Typically used to characterize or measure phenomena as a function of depth"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/profile" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/quadrat> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Quadrat"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A small plot used to isolate a standard unit of area for study of the distribution of an item over a large area"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/quadrat" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/scene> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Scene"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A two-dimensional visual extent within a physical environment"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/scene" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/shipsTrack> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Ships track"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A path along which a ship or vessel travels while measuring a phenomena of study. Represented as a line connecting the ship's consecutive positions on the surface of the earth"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/shipsTrack" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/site> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Site"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A facility or location at which observations have been collected. A site may have instruments or equipment installed and may contain multiple other sampling features (e.g., a stream gage, weather station, observation well, etc.). Additionally, many specimen sampling features may be collected at a site. Sites are also often referred to as stations. A site is represented as a point, but it may have a geographical footprint that is not a point. The site coordinates serve as a reference for the site and offsets may be specified from this reference location"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/site" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/soilPitSection> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Soil pit section"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Two-dimensional vertical face of a soil pit that is described and sampled"@en ;
+    dct:source "ttp://vocabulary.odm2.org/samplingfeaturetype/soilPitSection" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/specimen> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Specimen"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A physical sample (object or entity) obtained for observations, typically performed ex situ, often in a laboratory"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/specimen" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/streamGage> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Stream gage"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A location used to monitor and test terrestrial bodies of water. Hydrometric measurements of water level, surface elevation ("stage") and/or volumetric discharge (flow) are generally taken, and observations of biota and water quality may also be made"@en ;
+    dct:source "ttp://vocabulary.odm2.org/samplingfeaturetype/streamGage" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/trajectory> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Trajectory"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The path that a moving object follows through space as a function of time. A trajectory can be described by the geometry of the path or as the position of the object over time"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/trajectory" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/transect> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Transect"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A path along which ocurrences of a phenomena of study are counted or measured"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/transect" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/traverse> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Traverse"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A field control network consisting of survey stations placed along a line or path of travel"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/traverse" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/waterQualityStation> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Water quality station"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A location used to monitor and test the quality of terrestrial bodies of water. Water quality stations may be locations at which physical water samples are collected for ex situ analysis. Water qulaity stations may also have instruments and equipment for continuous, in situ measurement of water quality variables"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/waterQualityStation" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/weatherStation> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Weather station"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A facility, either on land or sea, with instruments and equipment for measuring atmospheric conditions to provide information for weather forecasts and to study weather and climate"@en ;
+    dct:source "http://vocabulary.odm2.org/samplingfeaturetype/weatherStation" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/automated> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Automated"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample collected using an automated sampler"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/automated" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/cuttings> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Cuttings"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Loose, coarse, unconsolidated material suspended in drilling fluid"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/cuttings" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/dredge> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Dredge"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A group of rocks collected by dragging a dredge along the seafloor"@en ;
+    dct:source "ttp://vocabulary.odm2.org/specimentype/dredge" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/foliageDigestion> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Foliage digestion"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample that consists of a digestion of plant foliage"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/foliageDigestion" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/foliageLeaching> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Foliage leaching"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample that consists of leachate from foliage"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/foliageLeaching" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/forestFloorDigestion> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Forest floor digestion"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample that consists of a digestion of forest floor material"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/forestFloorDigestion" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/grab> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Grab"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A sample (sometimes mechanically collected) from a deposit or area, not intended to be representative of the deposit or area"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/grab" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/individualSample> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Individual sample"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A sample that is an individual unit, including rock hand samples, a biological specimen, or a bottle of fluid"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/individualSample" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/litterFallDigestion> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Litter fall digestion"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample that consists of a digestion of litter fall"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/litterFallDigestion" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/orientedCore> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Oriented core"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Core that can be positioned on the surface in the same way that it was arranged in the borehole before extraction"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/orientedCore" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/other> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Other"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample does not fit any of the existing type designations. It is expected that further detailed description of the particular sample be provided"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/other" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/petriDishDryDeposition> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Petri dish deposition"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample from dry deposition in a petri dish"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/petriDishDryDeposition" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/precipitationBulk> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Precipitation bulk"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sample from bulk precipitation"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/precipitationBulk" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/rockPowder> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Rock powder"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A sample created from pulverizing a rock to powder"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/rockPowder" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/standardReferenceSpecimen> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Standard referece specimen"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Standard reference specimen"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/standardReferenceSpecimen" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/terrestrialSection> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Terrestrial section"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A sample of a section of the near-surface Earth, generally in the critical zone"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/terrestrialSection" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/thinSection> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Thin section"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Thin section"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/thinSection" ;
     dct:contributor "IGSN Technical Committee" .
 
 <https://epsg.io/4326> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "World Geodetic System 1984"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "World Geodetic System 1984, used in GPS"@en ;
+    dct:source "https://epsg.io/4326" ;
     dct:contributor "IGSN Technical Committee" .
 
 <https://epsg.io/4938> a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Geocentric Datum of Australia 1994"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "GDA94 Geocentric coordinate system "@en ;
+    dct:source "https://epsg.io/4938" ;
     dct:contributor "Geoscience Australia" .
 
 igsncode:Collection a skos:Concept ;
@@ -1193,8 +1193,8 @@ igsncode:MOCNESS a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Multiple Opening/Closing Net and Environmental Sensing System"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Multiple Opening/Closing Net and Environmental Sensing System and is a net system for plankton in the ocean"@en ;
+    dct:source "https://en.wikipedia.org/wiki/MOCNESS" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Net a skos:Concept ;
@@ -1202,8 +1202,8 @@ igsncode:Net a skos:Concept ;
     skos:narrower igsncode:MOCNESS ;
     skos:prefLabel "Net"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Fibers woven in a grid-like structure. It blocks the passage of large items, while letting small items and fluids pass. It requires less material than something sheet-like, and provides a degree of transparency"@en ;
+    dct:source "https://en.wikipedia.org/wiki/Net_(device)" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Other a skos:Concept ;
@@ -1219,8 +1219,8 @@ igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core half round"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Half-cylindrical products of along-axis split of a whole round"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/coreHalfRound" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/corePiece> a skos:Concept ;
@@ -1228,8 +1228,8 @@ igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core piece"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Material occurring between unambiguous [as curated] breaks in recovery"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/corePiece" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreQuarterRound> a skos:Concept ;
@@ -1237,8 +1237,8 @@ igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core quarter round"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Quarter-cylindrical products of along-axis split of a half round"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/coreQuarterRound" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreSection> a skos:Concept ;
@@ -1246,8 +1246,8 @@ igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core section"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Arbitrarily cut segments of a \"core\""@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/coreSection" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreSectionHalf> a skos:Concept ;
@@ -1255,8 +1255,8 @@ igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core section half"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Half-cylindrical products of along-axis split of a section or its component fragments through a selected diameter"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/coreSectionHalf" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreSub-Piece> a skos:Concept ;
@@ -1264,8 +1264,8 @@ igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core sub-piece"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Unambiguously mated portion of a larger piece noted for curatorial management of the material"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/coreSub-Piece" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreWholeRound> a skos:Concept ;
@@ -1273,8 +1273,8 @@ igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Core whole round"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Cylindrical segments of core or core section material"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/coreWholeRound" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Dredge a skos:Concept ;
@@ -1283,8 +1283,8 @@ igsncode:Dredge a skos:Concept ;
         igsncode:Scallop ;
     skos:prefLabel "Dredge"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A boat or barge used in freshwater or ocean dredging"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Hand a skos:Concept ;
@@ -1294,8 +1294,8 @@ igsncode:Hand a skos:Concept ;
         igsncode:Knife ;
     skos:prefLabel "Hand"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A human hand"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Unknown a skos:Concept ;
