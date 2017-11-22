@@ -208,7 +208,7 @@ igsncode:Auger a skos:Concept ;
     skos:broader igsncode:Hand ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Auger"^^xsd:string ;
-    skos:definition "An auger is a drilling device, or drill bit, that usually includes a rotating helical screw blade called a "flighting" to act as a screw conveyor to remove the drilled out material."@en ;
+    skos:definition "An auger is a drilling device, or drill bit, that usually includes a rotating helical screw blade called a \"flighting\" to act as a screw conveyor to remove the drilled out material."@en ;
     dct:source "https://en.wikipedia.org/wiki/Auger_(drill)" ;
     dct:contributor "IGSN Technical Committee" .
 
@@ -712,8 +712,8 @@ igsncode:WorkPackageLeader a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Work package leader"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A leader of a package of work"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:hasDocument a skos:Concept ;
@@ -984,7 +984,7 @@ igsncode:hasEvent a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Stream gage"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition "A location used to monitor and test terrestrial bodies of water. Hydrometric measurements of water level, surface elevation ("stage") and/or volumetric discharge (flow) are generally taken, and observations of biota and water quality may also be made"@en ;
+    skos:definition "A location used to monitor and test terrestrial bodies of water. Hydrometric measurements of water level, surface elevation (\"stage\") and/or volumetric discharge (flow) are generally taken, and observations of biota and water quality may also be made"@en ;
     dct:source "ttp://vocabulary.odm2.org/samplingfeaturetype/streamGage" ;
     dct:contributor "IGSN Technical Committee" .
 
@@ -1317,8 +1317,8 @@ igsncode:Unknown a skos:Concept ;
         <http://vocabulary.odm2.org/specimentype/coreWholeRound> ;
     skos:prefLabel "Core"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Long cylindrical cores"@en ;
+    dct:source "http://vocabulary.odm2.org/specimentype/core" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Corer a skos:Concept ;
