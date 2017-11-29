@@ -608,8 +608,8 @@ igsncode:SamplingFeature a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Sampleing feature"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A thing which links the sampling device (sensor) to the real-world feature of interest (such as lithosphere, tissue, waterbody). Could be a station,  transect, section"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Scallop a skos:Concept ;
@@ -648,8 +648,8 @@ igsncode:Supervisor a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Supervisor"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "One who supervises"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Trap a skos:Concept ;
@@ -720,16 +720,16 @@ igsncode:hasDocument a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "has document"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The sample has a related document"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:hasEvent a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "has event"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The sample has a related event"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/medium/air> a skos:Concept ;
@@ -1184,8 +1184,8 @@ igsncode:Collection a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Collection"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A collection, set, of things"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:MOCNESS a skos:Concept ;
@@ -1210,8 +1210,8 @@ igsncode:Other a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Other"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The value is one other than those in the selectable list. It is not unknown"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/coreHalfRound> a skos:Concept ;
@@ -1302,8 +1302,8 @@ igsncode:Unknown a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Unknown"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "The property or value is unknown"@en ;
+    dct:source "Nicholas Car" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://vocabulary.odm2.org/specimentype/core> a skos:Concept ;
