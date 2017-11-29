@@ -232,8 +232,8 @@ igsncode:ChainBag a skos:Concept ;
     skos:broader igsncode:Dredge ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Chain bag"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sampling of large rocks from the sea floor using a chain bag"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:ContactPerson a skos:Concept ;
@@ -288,8 +288,8 @@ igsncode:FreeFall a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Free fall"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Method of sediment sampling along transits up to 1.2 m. Diameter 4 to 8 cm"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Funder a skos:Concept ;
@@ -304,24 +304,24 @@ igsncode:Grab a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Grap"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Specimens gathered from the bed of a water body by a mechanical grab primarily for lithological and petrographic analyses"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Gravity a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Gravity"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Used only where short cores are required. Core barrel is gravity forced. Near surface high quality core"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:GravityGiant a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Gravity giant"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A Giant Gravity Corer is used to recover cores up to 6.5 meters in length. Normally operated from a hydrographic winch, this gravity core can travel through the water column at speeds up to 125 meters a minute, which reduces station time required, especially in pelagic ocean depths."@en ;
+    dct:source "Irina Bastrakova" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Hammer a skos:Concept ;
@@ -416,8 +416,8 @@ igsncode:Multi a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Multi"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A corer that can retrieve multiple cores at once"@en ;
+    dct:source "Jens Klump" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:MultiLineString a skos:Concept ;
@@ -472,16 +472,16 @@ igsncode:Piston a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Piston"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Uses a piston to drive the core barrel. High quality long cores"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:PistonGiant a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Piston giant"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Also called Jumbo Piston Core.  Designed to large diameter (4.5”) undisturbed cores up to 100 feet (>30 m) long"@en ;
+    dct:source "Irina Bastrakova" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Point a skos:Concept ;
@@ -512,8 +512,8 @@ igsncode:Probe a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Probe"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Probe samplings are useful for sampling seed, grain, and other granular materials. Shorter length probes are more commonly used when sampling from drums and bins, while longer probes are optimal for sampling from larger stockpiles such as barges, rail cars, large trucks and hoppers."@en ;
+    dct:source "Irina Bastrakova" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:ProjectLeader a skos:Concept ;
@@ -616,16 +616,16 @@ igsncode:Scallop a skos:Concept ;
     skos:broader igsncode:Dredge ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Scallop"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Scallop dredge is a commercially-used towed device that may be operated over very coarse terrain but would be likely to suffer damage if towed over bedrock or through large boulders. The dredge itself consists of a triangular steel frame supporting, on its underside, a spring-loaded plate to which a tooth bar, designed to dig into the sediment, is bolted"@en ;
+    dct:source "Irina Bastrakova" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Scoop a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Scoop"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sampling of loose material (e.g. soil) with a sample scoop."@en ;
+    dct:source "Irina Bastrakova" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:SideSaddle a skos:Concept ;
@@ -656,16 +656,16 @@ igsncode:Trap a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Trap"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sediment traps are containers placed in the water column to collect particles falling toward the sea floor. The traps collect tiny sediment or larger accumulations called marine snow - made up of organic matter, dead sea creatures, tiny shells, dust and minerals"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Trawl a skos:Concept ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Trawl"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sampling method designed to sample at and just above the surface of the seabed"@en ;
+    dct:source "Irina Bastrakova" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:TriggerWeight a skos:Concept ;
@@ -704,8 +704,8 @@ igsncode:Vibrating a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Vibrating"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A core tube is attached to a source of mechanical vibration (the power head) and lowered into  sediment. The vibrations provide energy for rearranging the particles within the sediment in such a way that the coretube penetrates under the static weight of the vibracoring apparatus. Samples include stiff and stony clays, soft rock and sands, and saturated sediments which cannot be sampled using gravity or piston corers. Also known as VIBRA"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:WorkPackageLeader a skos:Concept ;
@@ -1338,8 +1338,8 @@ igsncode:Corer a skos:Concept ;
         igsncode:Vibrating ;
     skos:prefLabel "Corer"^^xsd:string ;
     skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "Sampling of a core of earth material by an unspecified drilling method"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 <http://pid.geoscience.gov.au/def/voc/ga/igsncode> a rdfs:Resource,
@@ -1475,4 +1475,3 @@ igsncode:Corer a skos:Concept ;
         <http://vocabulary.odm2.org/specimentype/thinSection>,
         <https://epsg.io/4326>,
         <https://epsg.io/4938> .
-
