@@ -224,8 +224,8 @@ igsncode:Box a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Box"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A method that obtains a large volume or large surface area core with shallow penetration and minimum disturbance. Commonly uses a double spade system"@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:ChainBag a skos:Concept ;
@@ -632,8 +632,8 @@ igsncode:SideSaddle a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Side saddle"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A method to extract a core or a plug from the sidewall of a borehole Also known as sidewall."@en ;
+    dct:source "Geoscience Australia" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:Sponsor a skos:Concept ;
@@ -672,8 +672,8 @@ igsncode:TriggerWeight a skos:Concept ;
     skos:broader igsncode:Corer ;
     skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/igsncode> ;
     skos:prefLabel "Trigger weight"^^xsd:string ;
-    skos:definition ""@en ;
-    dct:source "" ;
+    skos:definition "A corer that uses a weighted line to measure waterbody depth. The weight triggers the corer action on contact with the bottom. The corer could be a piston or similar"@en ;
+    dct:source "Nicholas Car, after Addy & Ewing, 1974, DOI:10.1016/0025-3227(74)90040-1" ;
     dct:contributor "IGSN Technical Committee" .
 
 igsncode:URI a skos:Concept ;
